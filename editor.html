@@ -292,21 +292,6 @@
         </table>
     </div>
     <div class="section">
-        <div class="section-header">Тема 6</div>
-        <table data-table-id="1">
-            <tbody>
-                <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-                <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-                <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-                <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-                <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-                <tr class="sum-row">
-                    <td>0</td><td>0</td><td>0</td><td>0</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="section">
         <div class="section-header">Тема 10</div>
         <table data-table-id="1">
             <tbody>
@@ -496,7 +481,7 @@
                         this.classList.remove('red-cell');
                         this.classList.add('green-cell');
                         this.textContent = rowValues[rowIndex].green;
-                    } else if (this.classList.contains('red-cell')) {
+                    } else if (this.classList.contains('green-cell')) {
                         // green → void
                         this.classList.remove('green-cell');
                         this.textContent = '0';
