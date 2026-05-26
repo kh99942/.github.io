@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,36 @@
             font-size: 24px;
             border-radius: 5px;
             margin-bottom: 10px;
+        }
+        /* Строка имён игроков */
+        .players-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto 15px auto;
+            padding: 0 10px;
+        }
+
+        .player-cell {
+            flex: 1;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        .player-input {
+            width: 90%;
+            max-width: 120px;
+            padding: 8px;
+            text-align: center;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .player-input:focus {
+            border-color: #007bff;
         }
 
         .legend-row {
